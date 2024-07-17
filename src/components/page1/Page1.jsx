@@ -14,9 +14,8 @@ function Page1() {
       </div>
       <Navbar />
       <div className="hero">
-
         <div className="left">
-          <h1>Get the most Personalised Marketing experience ever</h1>
+          <h1>Get the most <span className="decor">Personalised</span>  Marketing experience ever</h1>
           <p>
             Leading the Way in Influencer Marketing, Talent Management, and
             Social Media Solutions across India. Connecting Brands with

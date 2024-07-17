@@ -56,7 +56,7 @@
     /* justify-content: center; */
     gap: 1vw;
     padding: 2vw 2vw;
-    
+    box-shadow: 3px 5px 10px 5px rgba(0,0,0,0.1);    
 }
 
 .service-content h2{
@@ -69,9 +69,15 @@
 /* BRANDS */
 .brands-div{
     padding: 10vw 0vw;
+    min-height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    gap: 5vw;
     margin: auto;
+    background-color: #EFEAE3;
+    position: relative;
+    overflow: hidden;
 }
 .brands-div h2{
     font-family: Rowdies;
@@ -79,4 +85,93 @@
     font-size: 32px;
     display: inline-block;
     margin: auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: move;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.content img{
+    display: inline-block;
+    padding: 0vw 2vw
+}
+
+.brand-img{
+    overflow-x: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100vw;
+}
+
+@keyframes move{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+/* WHY CHOOSE QUIRKY FOLKS */
+.quirky{
+    font-family: Rowdies;
+    text-decoration: underline #C192AF;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 6px;
+}
+.reason{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    gap: 3vw;
+}
+.reason div{
+    display: flex;
+}
+.reason h3{
+    font-family: Rowdies;
+    font-size: 32px;
+    display: inline-block;
+}
+.why{
+    padding: 2vw 3vw;
+    display: flex;
+    gap: 3vw;
+    width: 100%;
+    
+}
+
+.why .why-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 4vw 3vw;
+    height:366px;
+    width: 340px;
+    background-color: #141414;
+    color: #fff;
+    border-radius: 35px;
+}
+
+.why-content h4{
+    font-size: 20px;
+    font-family: Inter;
+}
+
+.why-content p{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Inter;
 }

@@ -8,6 +8,11 @@
     /* position: relative; */
     overflow: hidden;
     padding: 0;
+    background-image: url(../../assets/waves.svg);
+    background-repeat: no-repeat;
+/* background-position: center; */
+
+
 } 
 
 /* MOVING TAGLINE */
@@ -53,6 +58,17 @@
 }
 
 /* HERO SECTION */
+
+.spacer{
+    aspect-ratio: 1440/715;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer{
+    background-image: url(../../assets/waves.svg);
+}
 .hero{
     padding: 9vw 2vw;
     height: 85vh;
@@ -64,7 +80,12 @@
     padding-bottom:2vw ;
     gap: 5%;
 }
-
+span.decor{
+    text-decoration: underline #FDCDC1;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 6px;
+    font-family: Rowdies;
+}
 .left{
     width: 50%;
 }

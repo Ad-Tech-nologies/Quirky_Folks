@@ -1,6 +1,23 @@
 import React from "react";
 import "./Page2.css";
 import Service from "./Service";
+import BrandContent from "./BrandContent";
+import Why from "./Why";
+import jvnsthi from "../../assets/jeevansathi.png"
+import ajio from "../../assets/ajio.png"
+import flipkart from "../../assets/flipkart.png"
+import lenskart from "../../assets/lenskart.png"
+import may from "../../assets/maybelline.png"
+import milagro from "../../assets/milagro.png"
+import titan from "../../assets/titan.png"
+import amazon from "../../assets/amazon.png"
+import loreal from "../../assets/loreal.png"
+import moira from "../../assets/moira.png"
+import pigeon from "../../assets/pigeon.png"
+import prishe from "../../assets/prishe.png"
+import tb from "../../assets/tacobell.png"
+import tre from "../../assets/tresemme.png"
+import meesho from "../../assets/meesho.png"
 
 function Page2() {
   return (
@@ -30,6 +47,71 @@ function Page2() {
 
       <div className="brands-div">
         <h2>BRANDS THAT ARE ALREADY QUIRKY….</h2>
+        <div className="brand-img">
+
+            <div className="firstrow">
+            <BrandContent img1={jvnsthi}
+            img2={ajio}
+            img3={lenskart}
+            img4={may}
+            img5={milagro} />
+            <BrandContent img1={jvnsthi}
+            img2={ajio}
+            img3={lenskart}
+            img4={may}
+            img5={milagro} />
+            {/* <BrandContent img1={jvnsthi}
+            img2={ajio}
+            img3={lenskart}
+            img4={may}
+            img5={milagro} /> */}
+            </div>
+
+            <div className="firstrow">
+            <BrandContent img1={flipkart}
+            img2={titan}
+            img3={moira}
+            img4={pigeon}
+            img5={tb} />
+            <BrandContent img1={flipkart}
+            img2={titan}
+            img3={moira}
+            img4={pigeon}
+            img5={tb} />
+            {/* <BrandContent img1={flipkart}
+            img2={titan}
+            img3={moira}
+            img4={pigeon}
+            img5={tb} /> */}
+            </div>
+
+            <div className="firstrow">
+            <BrandContent img1={amazon}
+            img2={loreal}
+            img3={prishe}
+            img4={tre}
+            img5={meesho} />
+            <BrandContent img1={amazon}
+            img2={loreal}
+            img3={prishe}
+            img4={tre}
+            img5={meesho} />
+            </div>
+            
+        </div>
+      </div>
+
+      <div className="reason">
+        <h3>WHY CHOOSE <span className="quirky">QUIRKY FOLKS</span></h3>
+        <div >
+        <Why style={{backgroundColor: "lightblue"}} heading="Personalised Brand Campaigns"
+        con="We focus on personalization and provide each of our clients with exclusive strategy according to their needs." />
+        <Why heading="Creative & Gen z approach" 
+        con="We are a team of gen - z professionals so your brand will definitely get a quirky touch. And you will be able to ride the latest trends."/>
+        <Why heading="Influencer Connections all over India !"
+        con="We have worked with influencers from all around India, and can help you with the set that suits you the best." />
+        </div>
+        
       </div>
     </div>
   );
