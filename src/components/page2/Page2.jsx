@@ -104,7 +104,7 @@ function Page2() {
       <div className="reason">
         <h3>WHY CHOOSE <span className="quirky">QUIRKY FOLKS</span></h3>
         <div >
-        <Why style={{backgroundColor: "lightblue"}} heading="Personalised Brand Campaigns"
+        <Why heading="Personalised Brand Campaigns"
         con="We focus on personalization and provide each of our clients with exclusive strategy according to their needs." />
         <Why heading="Creative & Gen z approach" 
         con="We are a team of gen - z professionals so your brand will definitely get a quirky touch. And you will be able to ride the latest trends."/>
