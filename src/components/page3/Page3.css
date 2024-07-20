@@ -14,9 +14,9 @@
 }
 
 .page3 .about{
-    min-height: 70vh;
+    min-height: 85vh;
     width: 100%;
-    background-color: #402B3A;
+    background-color: #F11A7B;
      padding: 5vw 20vw;
      position: relative;
      overflow: hidden;
@@ -24,6 +24,7 @@
      flex-direction: column;
      align-items: center;
      gap: 2vw;
+     border-radius: 20px 20px 0px 0px;
 }
 
 .page3 h1{

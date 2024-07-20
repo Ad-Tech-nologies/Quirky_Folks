@@ -1,14 +1,14 @@
 import React from "react";
 import "./Page3.css";
 import Card from "../card/Card";
+import ContactUs from "./ContactUs";
 
 function Page3() {
   return (
     <div className="page3">
-              <Card />
+      <Card />
 
-      <div className="about">
-        
+      <div data-scroll data-scroll-speed="0.1" className="about">
         <h1>ABOUT US</h1>
         <p>
           We are a group of Quirky Folks who came together to form a marketing
@@ -23,6 +23,7 @@ function Page3() {
 
         <p>Sit back, relax and let Quirky handle it!</p>
       </div>
+      <ContactUs />
     </div>
   );
 }

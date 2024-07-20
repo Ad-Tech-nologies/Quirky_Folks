@@ -22,11 +22,11 @@ import meesho from "../../assets/meesho.png"
 function Page2() {
   return (
     <div className="page2">
-      <div className="services">
+      <div data-scroll data-scroll-speed="0.3" className="services">
         <h3>Services</h3>
         <h2>TRUST US WITH</h2>
         <div className="ser">
-          <Service
+          <Service 
             heading="INFLUENCER MARKETING"
             content="Youtube and instagram are the leading platforms for influencer marketing with more than 2.1 billion users. People create highly engaging content for a large audience to consume and quirky is here with all our connections to make sure you get the best results from this huge market."
           />
@@ -103,7 +103,7 @@ function Page2() {
 
       <div className="reason">
         <h3>WHY CHOOSE <span className="quirky">QUIRKY FOLKS</span></h3>
-        <div >
+        <div className="why" >
         <Why heading="Personalised Brand Campaigns"
         con="We focus on personalization and provide each of our clients with exclusive strategy according to their needs." />
         <Why heading="Creative & Gen z approach" 

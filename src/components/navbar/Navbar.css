@@ -3,6 +3,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* position: fixed;   */
+    z-index: 90;
+    
 }
 
 nav img{
@@ -31,6 +34,7 @@ nav img{
 .menu h4{
     padding: 7px 18px;
     border: 1px solid #00000071;
+    background-color: #EFEAE3;
     border-radius: 50px;
     font-weight: 400;
     color: #000000c1;

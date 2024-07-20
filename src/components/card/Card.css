@@ -39,11 +39,11 @@
   }
   
   .card-front {
-    background-color: #E90064;
+    background-color: #343233;
     color: #fff;
     display: flex;
     align-items: center;
-    border: 10px solid #E90064;
+    border: 10px solid #343233;
     border-radius: 10px;
     justify-content: center;
     font-size: 24px;
