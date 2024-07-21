@@ -3,14 +3,13 @@
     src: url( /FoundersGrotesk-Bold.otf);
 }
 .card {
-    padding: 2vw 3vw;
+    padding: 2vw 3vw 7vw 2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 70%;
-    height: 80vh;
+    height: 90vh;
     /* perspective: 1000px; */
-
   }
   .card-front h1{
     font-family: "FoundersGrotesk";
@@ -23,7 +22,7 @@
     height: 100%;
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.999s;
+    transition: transform 0.999s;   
   }
   
   .card:hover .card-inner {
