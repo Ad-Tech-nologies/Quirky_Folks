@@ -55,6 +55,11 @@
     justify-content: center;
 }
 
+.contact-us form{
+    display: flex;
+    flex-direction: column;
+}
+
 .contact-us h1{
     position: absolute;
     top: 50px;
@@ -63,5 +68,50 @@
     letter-spacing: 2px;
     color: #d06880;
 }
+
+/* form .information{
+    display: flex;
+} */
+
+form{
+    padding:15vw 10vw 2vw 10vw ;
+    /* width: 100%; */
+}
+
+.contactdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+input, select{
+    border: none;
+    width: 20vw;
+    border-radius: 8px;
+    height: 2.3vw;
+    margin: 1vw 0 1vw 0;
+}
+.information .col{
+    display: flex;
+    gap: 2vw;
+}
+
+select{
+    padding: 0.1vw 1vw;
+}
+
+form .submit{
+    background-color: #d06880;
+    color: white;
+    position: relative;
+    margin-top: 2vw;
+    border: none;
+    height: 3.5vw;
+}
+
+.msginput{
+    width: 100%;
+    height: 10vw;
+}
+
 
 

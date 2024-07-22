@@ -11,8 +11,8 @@ function Footer() {
          </div>
          <div className="phn">
           <h3>Phone no: </h3>
-          <p> +91 9876543210</p>
-          <p>+91 9876543210</p>
+          <p> +91-7827976821</p>
+          <p>+91-8882153750</p>
          </div>
         </div>
         <div className="socials">
