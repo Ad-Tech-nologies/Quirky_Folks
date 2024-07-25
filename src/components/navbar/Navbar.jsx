@@ -7,9 +7,9 @@ function Navbar() {
     <nav>
         <img src={logo} alt="" />
         <div className="menu">
-            <h3><a href="#">Services</a></h3>
+            <h3><a href="#services">Services</a></h3>
             <h3><a href="#">Our Blogs</a></h3>
-            <h3><a href="#">About Us</a></h3>
+            <h3><a href="#about-us">About Us</a></h3>
             <h4><a href="#contact-us">Contact Us</a></h4>
         </div>
     </nav>

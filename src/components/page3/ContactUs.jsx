@@ -12,6 +12,7 @@ function ContactUs() {
     instaLink: "",
     ytLink: "",
     budget: "",
+    message: ""
   });
 
   const [sumbitBtn, setSubmitBtn] = useState("SUBMIT");
@@ -27,7 +28,10 @@ function ContactUs() {
       instaLink: "",
       ytLink: "",
       budget: "",
+      message: ""
     });
+    // setSubmitBtn("SUBMIT");
+
   };
 
   const handleChange = (e) => {
@@ -50,7 +54,6 @@ function ContactUs() {
       )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
-        // alert('Email sent successfully!');
         setSubmitBtn("SUBMITTED");
         clearState();
       })

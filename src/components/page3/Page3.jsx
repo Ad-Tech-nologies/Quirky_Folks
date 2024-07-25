@@ -10,7 +10,7 @@ function Page3() {
     <div className="page3">
       <Card />
       {/* data-scroll data-scroll-speed="0.1" */}
-      <div  className="about">
+      <div id="about-us"  className="about">
         <h1>ABOUT US</h1>
         <p>
           We are a group of Quirky Folks who came together to form a marketing

@@ -178,6 +178,26 @@
 
 }
 
+.why-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    padding: 4vw 3vw;
+    height:366px;
+    width: 340px;
+    background-color: #141414;
+    color: #fff;
+    border-radius: 35px;
+    box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.245);    
+
+}
+
+.why-content img{
+    /* position: absolute; */
+    height: 5vw;
+    /* padding-left: 2vw; */
+}
+
 .why-content:nth-child(2){
     background-color: #C192AF;
     color: #000000;
@@ -186,6 +206,7 @@
 .why-content h4{
     font-size: 20px;
     font-family: Inter;
+    display: flex;
 }
 
 .why-content p{

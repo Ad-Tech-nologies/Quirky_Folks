@@ -3,6 +3,9 @@ import "./Page2.css";
 import Service from "./Service";
 import BrandContent from "./BrandContent";
 import Why from "./Why";
+import genz from '/person.png'
+import connection from "/networking.png"
+import campaign from "/campaign.png"
 import jvnsthi from "../../assets/jeevansathi.png"
 import ajio from "../../assets/ajio.png"
 import flipkart from "../../assets/flipkart.png"
@@ -22,7 +25,7 @@ import meesho from "../../assets/meesho.png"
 function Page2() {
   return (
     <div className="page2">
-      <div data-scroll data-scroll-speed="0.3" className="services">
+      <div data-scroll className="services">
         <h3>Services</h3>
         <h2>TRUST US WITH</h2>
         <div className="ser">
@@ -104,11 +107,11 @@ function Page2() {
       <div className="reason">
         <h3>WHY CHOOSE <span className="quirky">QUIRKY FOLKS</span></h3>
         <div className="why" >
-        <Why heading="Personalised Brand Campaigns"
+        <Why image={connection} heading="Personalised Brand Campaigns"
         con="We focus on personalization and provide each of our clients with exclusive strategy according to their needs." />
-        <Why heading="Creative & Gen z approach" 
+        <Why image={genz} heading="Creative & Gen z approach" 
         con="We are a team of gen - z professionals so your brand will definitely get a quirky touch. And you will be able to ride the latest trends."/>
-        <Why heading="Influencer Connections all over India !"
+        <Why image={campaign} heading="Influencer Connections all over India !"
         con="We have worked with influencers from all around India, and can help you with the set that suits you the best." />
         </div>
         

@@ -83,6 +83,16 @@ form{
     flex-direction: column;
 }
 
+input{
+    padding: 0vw 1vw;
+}
+
+input:focus{
+    outline: none;
+    border-color: #d06880;
+    box-shadow: 0 0 5px rgb(83, 62, 78);
+}
+
 input, select{
     border: none;
     width: 20vw;

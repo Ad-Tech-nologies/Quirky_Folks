@@ -2,6 +2,8 @@ import React from 'react'
 import "./Footer.css"
 
 function Footer() {
+  const d = new Date();
+let year = d.getFullYear();
   return (
     <div className='footer'>
         <div className="links">
@@ -16,7 +18,7 @@ function Footer() {
          </div>
         </div>
         <div className="socials">
-
+          <p>Copyright © {year} </p>
         </div>
     </div>
   )

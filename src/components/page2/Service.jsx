@@ -3,7 +3,7 @@ import "./Page2.css"
 
 function Service(props) {
   return (
-    <div className='service-content'>
+    <div id='services' className='service-content'>
         <h2>{props.heading}</h2>
         <p>{props.content}
         </p>
