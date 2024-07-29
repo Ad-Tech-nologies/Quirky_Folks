@@ -11,7 +11,7 @@ function Marquee() {
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 6 }}
         >
-          LET QUIRKY HANDLE
+          LET QUIRKY HANDLE IT
           <div className="circle"></div>
         </motion.h1>
 
@@ -22,7 +22,7 @@ function Marquee() {
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 6 }}
         >
-          LET QUIRKY HANDLE
+          LET QUIRKY HANDLE IT
           <div className="circle"></div>
 
         </motion.h1>

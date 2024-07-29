@@ -2,7 +2,7 @@
 .footer{
     /* background-image: url(../../../public/footerbg.svg); */
     /* border-radius: 50px 50px 0px 0px; */
-    background-color: rgb(38, 38, 38);
+    background-color: #917FB3;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -24,7 +24,7 @@
 }
 
 .links .mail h3{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2vw;
     font-weight: 100;
  }
@@ -42,19 +42,22 @@
  }
 
  .links .mail p{
-    color: rgb(255, 216, 241);
+    color: rgb(0, 0, 0);
     font-size: 1.2vw;
+    font-weight: 500;
  }
 
  .links .phn h3{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2vw;
     font-weight: 100;
  }
 
  .links .phn p{
-    color: rgb(255, 216, 241);
+    color: rgb(0, 0, 0);
     font-size: 1.2vw;
+    font-weight: 500;
+
  }
 
  .footer .links{
