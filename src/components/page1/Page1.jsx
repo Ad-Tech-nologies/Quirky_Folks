@@ -3,6 +3,7 @@ import Navbar from "../navbar/Navbar";
 import Tagline from "./Tagline";
 import "./Page1.css";
 import Button from "./Button";
+import collage from "../../../public/collage.png"
 
 function Page1() {
   return (
@@ -12,7 +13,7 @@ function Page1() {
         <Tagline />
         <Tagline />
       </div>
-      <Navbar />
+      <Navbar /> 
       <div className="hero">
         <div className="left">
           <h1 >Get the most <span className="decor">Personalised</span>  Marketing experience ever</h1>
@@ -28,7 +29,6 @@ function Page1() {
         </div>
 
         <div className="right">
-          
         </div>
 
       </div>

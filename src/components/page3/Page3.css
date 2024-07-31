@@ -124,4 +124,39 @@ form .submit{
 }
 
 
+/* BLOG SECTION */
+.blog-div{
+    display: flex;
+    margin-bottom: 3vw;
+}
+.blog-content{
+    height: 38vw;
+    width: 23vw;
+    background-color: #FCF6ED;
+    border-radius: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    padding: 2vw 2vw;
+    margin: 3vw 2vw;
+    box-shadow: 3px 5px 10px 5px rgba(0,0,0,0.1);    
+}
+.blog-content p{
+    font-size: 1vw;
+    color: #000;
+    text-align: center;
+}
+.blog-content h3{
+    text-align: center;
+}
+.blog-content img{
+    width: 20vw;
+    border-radius: 3%
+}
 
+.blog-btn{
+    background-color: #d5758b;
+    border: none;
+    color: #FCF6ED;
+}
