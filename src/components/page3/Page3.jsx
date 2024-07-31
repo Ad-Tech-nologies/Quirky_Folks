@@ -21,10 +21,11 @@ function Page3() {
           para="Social media management doesn’t stop at content creation and scheduling. Evaluating and sharing campaign impact is also essential for mesuring a campaign success. Reporting on performance and making strategic decisions based on social metrics can feel difficult – but it doesn’t have to be! Here’s everything you need to know about social media analytics — metrics you need to track to make analysis and reporting simple. What are Social Media Analytics?"
         />
         <Blogs
-        link="https://quirkyfolks.blogspot.com/2024/07/take-your-brand-to-next-level-with.html"
-        img="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqvyzPZyUAj6hz1XpUU7Nu39rrTX0cJCSHKABqScu6I8uuau7VGS9Qb9P2SIcZS_ht3YDwMEpaTyODhvmfoHibcS4N0rEShXQg4Hx5-58tPyAANmTwExn4q0eZl5j1NIRiwPc77ppfVrkjDDFRy7UD95OuHxpAu-7G7_qxAxN5MpddOR_qB9_xctVKXt0O/s600/Take%20your%20brand%20to%20the%20next%20level%20with.png"
-        heading="Take your brand to the next level with Influencer Marketing"
-        para="In todays environment businesses are constantly on the look out for new ways to elevate their brand and take it to the next level. One thing that plays a major role in that is capturing the attention of their target audience. A powerful method that has gained traction in doing so in the recent years is Influencer Marketing. Brands can enhance their visibility and credibility by partnering up with influencial individuals on the social media platforms to attract the audience" />
+          link="https://quirkyfolks.blogspot.com/2024/07/take-your-brand-to-next-level-with.html"
+          img="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqvyzPZyUAj6hz1XpUU7Nu39rrTX0cJCSHKABqScu6I8uuau7VGS9Qb9P2SIcZS_ht3YDwMEpaTyODhvmfoHibcS4N0rEShXQg4Hx5-58tPyAANmTwExn4q0eZl5j1NIRiwPc77ppfVrkjDDFRy7UD95OuHxpAu-7G7_qxAxN5MpddOR_qB9_xctVKXt0O/s600/Take%20your%20brand%20to%20the%20next%20level%20with.png"
+          heading="Take your brand to the next level with Influencer Marketing"
+          para="In todays environment businesses are constantly on the look out for new ways to elevate their brand and take it to the next level. One thing that plays a major role in that is capturing the attention of their target audience. A powerful method that has gained traction in doing so in the recent years is Influencer Marketing. Brands can enhance their visibility and credibility by partnering up with influencial individuals on the social media platforms to attract the audience"
+        />
         {/* <Blogs /> */}
       </div>
       <div id="about-us" className="about">
