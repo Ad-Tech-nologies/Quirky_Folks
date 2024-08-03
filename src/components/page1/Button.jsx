@@ -4,7 +4,7 @@ import "./Button.css"
 function Button(props) {
   return (
     <div>
-        <button>{props.text}</button>
+        <button><a href="#contact-us">{props.text}</a></button>
     </div>
   )
 }

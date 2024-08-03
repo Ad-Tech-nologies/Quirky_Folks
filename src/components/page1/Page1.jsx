@@ -4,8 +4,22 @@ import Tagline from "./Tagline";
 import "./Page1.css";
 import Button from "./Button";
 import collage from "../../../public/collage.png"
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { delay } from "framer-motion";
 
 function Page1() {
+  useGSAP(()=>{
+    gsap.from(".right",{
+      x:700,
+      duration:2,
+      delay:0.5
+    })
+   
+  })
+  function handleClick(){
+    
+  }
   return (
     <div className="page1">
       <div className="moving-text">
@@ -23,12 +37,13 @@ function Page1() {
             Influencers  — We'll Definitely Quirkify Your Brand!
           </p>
           <div className="btns">
-            <Button text="I'm a Brand" />
+            <Button  text="I'm a Brand" />
             <Button text="I'm an Influencer" />
           </div>
         </div>
 
         <div className="right">
+          <img src={collage} alt="" />
         </div>
 
       </div>

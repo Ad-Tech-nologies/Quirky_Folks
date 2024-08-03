@@ -76,6 +76,7 @@ function ContactUs() {
               name="name"
               value={formData.name}
               onChange={handleChange}
+              required
             />
           </div>
 
@@ -86,6 +87,7 @@ function ContactUs() {
               name="email"
               value={formData.email}
               onChange={handleChange}
+              required
             />
           </div>
           </div>
@@ -103,7 +105,7 @@ function ContactUs() {
 
           <div className="roles contactdiv">
             <label>Role: </label>
-            <select name="role" value={formData.role} onChange={handleChange}>
+            <select name="role" value={formData.role} onChange={handleChange}    required>
               <option value="">Select Role</option>
               <option value="influencer">Influencer</option>
               <option value="brand">Brand</option>
@@ -121,6 +123,7 @@ function ContactUs() {
                   name="genre"
                   value={formData.genre}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="insta contactdiv" >
@@ -130,6 +133,7 @@ function ContactUs() {
                   name="instaLink"
                   value={formData.instaLink}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="yt contactdiv" >
@@ -153,6 +157,7 @@ function ContactUs() {
                   name="brandName"
                   value={formData.brandName}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="budget contactdiv" >
@@ -162,12 +167,13 @@ function ContactUs() {
                   name="budget"
                   value={formData.budget}
                   onChange={handleChange}
+                  required
                 />
               </div>
             </div>
           )}
         </div>
-
+        
         <div className="message contactdiv">
           <label>How can we help you: </label>
           <input
