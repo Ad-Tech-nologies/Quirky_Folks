@@ -12,14 +12,19 @@ function Page1() {
   useGSAP(()=>{
     gsap.from(".right",{
       x:700,
-      duration:2,
-      delay:0.5
+      duration:1,
+      delay:0.5,
+      // ease: "power1.in"
     })
-   
+    // gsap.from(".left",{
+    //   y:700,
+    //   duration:1,
+    //   delay:0.1,
+    //   ease: "power1.out"
+    // })
+
   })
-  function handleClick(){
-    
-  }
+
   return (
     <div className="page1">
       <div className="moving-text">
