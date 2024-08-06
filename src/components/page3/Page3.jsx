@@ -45,10 +45,10 @@ function Page3() {
 
         <p>
           We cater to our clients by providing them with personalised campaign
-          strategies so that they can get the best results.{" "}
+          strategies so that they can get the best results.
         </p>
 
-        <p>Sit back, relax and let Quirky handle it!</p>
+        <h2 className="tagg">Sit back, relax and let Quirky handle it!</h2>
       </div>
       <Marquee />
       <ContactUs />

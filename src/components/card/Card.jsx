@@ -15,10 +15,10 @@ function Card() {
           <p>Give us a call or drop a mail, we endeavour to answer all enquiries within 24 hrs on business days.</p>
           <p>We will be happy to answer your questions!</p>
           <div className="options">
-          <button> <img src={influencer} alt="" />
-            I'M AN INFLUENCER</button>
-          <button><img src={brand} alt="" />
-            I'M A BRAND</button>
+            <a href="#contact-us"><button> <img src={influencer} alt="" />
+            I'M AN INFLUENCER</button></a>
+            <a href="#contact-us"><button><img src={brand} alt="" />
+            I'M A BRAND</button></a>
           </div>
           
         </div>

@@ -21,6 +21,8 @@ import prishe from "../../assets/prishe.png"
 import tb from "../../assets/tacobell.png"
 import tre from "../../assets/tresemme.png"
 import meesho from "../../assets/meesho.png"
+import gar from "../../assets/garneir.png"
+import pac from "../../assets/pac.webp"
 
 function Page2() {
   return (
@@ -49,7 +51,7 @@ function Page2() {
       </div>
 
       <div className="brands-div">
-        <h2>BRANDS THAT ARE ALREADY QUIRKY….</h2>
+        <h2>BRANDS THAT ARE ALREADY QUIRKYFIED….</h2>
         <div className="brand-img">
 
             <div className="firstrow">
@@ -63,11 +65,6 @@ function Page2() {
             img3={lenskart}
             img4={may}
             img5={milagro} />
-            {/* <BrandContent img1={jvnsthi}
-            img2={ajio}
-            img3={lenskart}
-            img4={may}
-            img5={milagro} /> */}
             </div>
 
             <div className="firstrow">
@@ -75,12 +72,15 @@ function Page2() {
             img2={titan}
             img3={moira}
             img4={pigeon}
-            img5={tb} />
+            img5={tb}
+            img6={gar} />
+            
             <BrandContent img1={flipkart}
             img2={titan}
             img3={moira}
             img4={pigeon}
-            img5={tb} />
+            img5={tb}
+            img6={gar} />
             {/* <BrandContent img1={flipkart}
             img2={titan}
             img3={moira}
@@ -93,12 +93,14 @@ function Page2() {
             img2={loreal}
             img3={prishe}
             img4={tre}
-            img5={meesho} />
+            img5={meesho}
+            img6={pac} />
             <BrandContent img1={amazon}
             img2={loreal}
             img3={prishe}
             img4={tre}
-            img5={meesho} />
+            img5={meesho}
+            img6={pac} />
             </div>
             
         </div>

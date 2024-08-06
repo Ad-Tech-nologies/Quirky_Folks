@@ -27,11 +27,21 @@
      border-radius: 20px 20px 0px 0px;
 }
 
+.about p{
+    text-align: center;
+    /* text-align: left; */
+}
+
+.tagg{
+    color: #FDCDC1;
+}
+
 .page3 h1{
     color: #EFEAE3;
     font-family: Rowdies;
     font-size: 4vw;
 }
+
 
 .page3 p{
     color: #FDCDC1;

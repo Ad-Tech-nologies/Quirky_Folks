@@ -15,6 +15,8 @@ function BrandContent(props) {
         <img src={props.img3} alt="" />
         <img src={props.img4} alt="" />
         <img src={props.img5} alt="" />
+        <img className='img6' src={props.img6} alt="" />
+
     </div>
     
   )
