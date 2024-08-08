@@ -107,7 +107,7 @@ function Page2() {
       </div>
 
       <div className="reason">
-        <h3>WHY CHOOSE <span className="quirky">QUIRKY FOLKS ENTERTAINMENT</span></h3>
+        <h3>WHY CHOOSE QUIRKY FOLKS ENTERTAINMENT</h3>
         <div className="why" >
         <Why image={connection} heading="Personalised Brand Campaigns"
         con="We focus on personalization and provide each of our clients with exclusive strategy according to their needs." />

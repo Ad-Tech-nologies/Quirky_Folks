@@ -152,6 +152,12 @@ form .submit{
     margin: 3vw 2vw;
     box-shadow: 3px 5px 10px 5px rgba(0,0,0,0.1);    
 }
+.blog-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
 .blog-content p{
     font-size: 1vw;
     color: #000;
@@ -169,4 +175,201 @@ form .submit{
     background-color: #d5758b;
     border: none;
     color: #FCF6ED;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+@media (max-width:600px) {
+    .page3{
+        min-height: 100vh;
+        width: 100%;
+        /* padding: 5vw 20vw; */
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 2vw; */
+    }
+    
+    .page3 .about{
+        min-height: 80vh;
+        width: 100%;
+        background-color: #d06880;
+         padding: 5vw 20vw;
+         position: relative;
+         overflow: hidden;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: 2vw;
+         border-radius: 20px 20px 0px 0px;
+    }
+    
+    .about p{
+        text-align: center;
+        /* text-align: left; */
+    }
+    
+    .tagg{
+        color: #FDCDC1;
+    }
+    
+    .page3 h1{
+        color: #EFEAE3;
+        font-family: Rowdies;
+        font-size: 4vw;
+    }
+    
+    
+    .page3 p{
+        color: #FDCDC1;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 25px
+    }
+    
+    
+    /* CONTACT US SECTION */
+    .contact-us{
+        min-height: 100vh;
+        width: 100%;
+        background-color: #EFEAE3;
+        border-radius: 25px 25px 0px 0px;
+        position: relative;
+        bottom: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-us form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-us h1{
+        position: absolute;
+        top: 50px;
+        font-family: Rowdies;
+        font-size: 5vw;
+        letter-spacing: 2px;
+        color: #d06880;
+    }
+    
+    /* form .information{
+        display: flex;
+    } */
+    
+    form{
+        padding:15vw 10vw 2vw 10vw ;
+        /* width: 100%; */
+    }
+    
+    .contactdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input{
+        padding: 0vw 1vw;
+    }
+    
+    input:focus{
+        outline: none;
+        border-color: #d06880;
+        box-shadow: 0 0 5px rgb(83, 62, 78);
+    }
+    
+    input, select{
+        border: none;
+        width: 20vw;
+        border-radius: 8px;
+        height: 2.3vw;
+        margin: 1vw 0 1vw 0;
+    }
+    .information .col{
+        display: flex;
+        gap: 2vw;
+    }
+    
+    select{
+        padding: 0.1vw 1vw;
+    }
+    
+    form .submit{
+        background-color: #d06880;
+        color: white;
+        position: relative;
+        margin-top: 2vw;
+        border: none;
+        height: 3.5vw;
+    }
+    
+    .msginput{
+        width: 100%;
+        height: 10vw;
+    }
+    
+    
+    /* BLOG SECTION */
+    .blog-div{
+        padding-top: 2vh;
+        padding-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3vw;
+        width: 100%;
+        min-height: 100vh;
+        justify-content: center;
+    }
+    .blog-content{
+        height: 40vh;
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vw;
+        padding: 1vw 2vw;
+        margin: 3vw 2vw; 
+    }
+    .blog-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        gap: 1vh;
+        padding: 2vh 3vh;
+    }
+    .blog-content p{
+        font-size: 2.8vw;
+        color: #000;
+        text-align: center;
+    }
+    .blog-content h3{
+        text-align: center;
+        font-size: 2vh;
+    }
+    .blog-content img{
+        width: 20vw;
+        border-radius: 3%
+    }
+    
+    .blog-btn{
+        background-color: #d5758b;
+        border: none;
+        color: #FCF6ED;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
 }

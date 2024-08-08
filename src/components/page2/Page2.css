@@ -54,8 +54,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    /* text-align: center; */
     gap: 1vw;
     padding: 2vw 2vw;
     box-shadow: 3px 5px 10px 5px rgba(0,0,0,0.1);    
@@ -64,9 +62,7 @@
     background-color: #d06880;
     /* color: white; */
 }
-/* .service-content:nth-child(3){
-    background-color: #D5B4B4;
-} */
+
 .service-content:nth-child(4){
     background-color: #d06880;
     /* color: white; */
@@ -140,9 +136,6 @@
 /* WHY CHOOSE QUIRKY FOLKS */
 .quirky{
     font-family: Rowdies;
-    /* text-decoration: underline #C192AF;
-    text-decoration-style: dashed 4px;
-    text-decoration-thickness: 6px; */
 }
 .reason{
     min-height: 100vh;
@@ -160,8 +153,7 @@
 }
 .reason h3{
     font-family: Rowdies;
-    font-size: 32px;
-    display: inline-block;
+    font-size: 5vh;
 }
 .why{
     padding: 2vw 3vw;
@@ -200,9 +192,7 @@
 }
 
 .why-content img{
-    /* position: absolute; */
     height: 5vw;
-    /* padding-left: 2vw; */
 }
 
 .why-content:nth-child(2){
@@ -220,4 +210,115 @@
     font-size: 16px;
     font-weight: 400;
     font-family: Inter;
+}
+
+
+
+
+/* RESPONSIVENESS */
+
+@media (max-width:600px) {
+    .page2{
+        min-height: 80vh;
+        width: 100%;
+        background-color: #EFEAE3;
+        padding: 1vw 2vw;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* SERVICES */
+    .services .ser{
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+    }
+    
+    .services h2{
+        font-size: 3vh;
+    }
+    
+    .service-content{
+        height: 30vh;
+        width: 40vh;
+        padding: 5vw 5vw;  
+    }
+    .service-content h2{
+        font-size: 2.5vh;
+        font-weight: 800;
+    }
+    
+    
+    /* BRANDS */
+    .brands-div{
+        padding-bottom: 8vh;
+        padding-top: 0vh;
+        margin-bottom: 9vh;
+    }
+    .brands-div h2{
+        font-size: 3vh;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3vw;
+        display: inline-block;
+        margin-bottom: 4vh;
+    }
+    
+    /* WHY CHOOSE QUIRKY FOLKS */
+    .reason{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        gap: 3vw;
+        padding: 2vh 0vh 5vh 2vh;
+    }
+    .reason div{
+        display: flex;
+    }
+    .reason div .why1{
+        background-color: #CD5888;
+    }
+    .reason h3{
+        font-family: Rowdies;
+        font-size: 3vh;
+        text-align: center;
+    }
+    .why{
+        padding: 2vw 3vw;
+        display: flex;
+        flex-direction: column;
+        gap: 7vw;
+        width: 100%;
+    }
+    
+    .why-content{
+        padding: 8vw 8vw;
+        height:35vh;
+        width: 40vh;  
+    }
+    
+    .why-content img{
+        height: 17vw;
+    }
+    
+    .why-content h4{
+        font-size: 2.5vh;
+    }
+    
+    .why-content p{
+        font-size: 2vh;
+        font-weight: 500;
+    }
+    
 }

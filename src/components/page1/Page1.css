@@ -79,15 +79,9 @@
     padding-bottom:2vw ;
     gap: 5%;
 }
-span.decor{
-    text-decoration: underline #FDCDC1;
-    text-decoration-style: dashed;
-    text-decoration-thickness: 6px;
-    font-family: Rowdies;
-}
+
 .left{
     padding: 7vw 2vw;
-
     width: 50%;
 }
 
@@ -144,12 +138,6 @@ span.decor{
         gap: 0px;
         padding: 0 5vw;
     }
-    span.decor{
-        text-decoration: underline #FDCDC1;
-        text-decoration-style: dashed;
-        text-decoration-thickness: 8px;
-        font-family: Rowdies;
-    }
     .left{
         padding: 7vw 2vw;
         width: 100%;
@@ -158,6 +146,7 @@ span.decor{
     .right{
         width: 100%;
         height: 100vh;
+        padding-left: 0;
     }
     
     .left h1{
@@ -169,10 +158,12 @@ span.decor{
     }
     
     .right img{
-        width: 80vh;
-        height: 70vh;
+        width: 85vh;
+        height: 65vh;
         border-radius: 30px;
         position: relative;
         padding-bottom:20vh ;
+        padding-right: 28vh;
+        padding-left: 0;
     }
 }
