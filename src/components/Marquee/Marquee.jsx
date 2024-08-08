@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function Marquee() {
   return (
-    <div className="marquee-main">
+    <div  className="marquee-main">
       <div className="marquee-sub">
         <motion.h1
           initial={{ x: 0 }}

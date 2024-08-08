@@ -37,7 +37,7 @@ function Page3() {
       </div>
       <div id="about-us" className="about">
         <h1>ABOUT US</h1>
-        <p>
+        <p className="p1">
           We are a group of Quirky Folks who came together to form a marketing
           agency. We have created campaigns for some of the major brands and
           have relationships with influencers from all around India.

@@ -69,3 +69,50 @@
     border-bottom: 1px solid rgb(80, 80, 80);
  }
 
+@media (max-width:600px) {
+   .footer{
+      height: 25vh;
+      padding-bottom: 4vh;
+  }
+  
+  .footer .socials p{
+     font-size: 3vw;
+  }
+  
+  .links .mail h3{
+      color: rgb(0, 0, 0);
+      font-size: 4vw;
+      font-weight: 100;
+   }
+  .links{
+   gap: 4vh;
+  }
+   .links .mail{
+      display: flex;
+      flex-direction: column;
+      gap: 1vw;
+   }
+  
+   .links .phn{
+      display: flex;
+      flex-direction: column;
+      gap: 0.5vw;
+   }
+  
+   .links .mail p{
+      color: rgb(0, 0, 0);
+      font-size: 2.5vw;
+      font-weight: 400;
+   }
+  
+   .links .phn h3{
+      font-size: 4vw;
+      font-weight: 100;
+   }
+  
+   .links .phn p{
+      font-size: 2.5vw;
+      font-weight: 500;
+  
+   }
+}
