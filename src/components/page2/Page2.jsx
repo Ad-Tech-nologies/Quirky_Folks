@@ -51,7 +51,7 @@ function Page2() {
       </div>
 
       <div className="brands-div">
-        <h2>BRANDS THAT ARE ALREADY QUIRKYFIED….</h2>
+        <h2>BRANDS THAT ARE ALREADY QUIRKYFIED</h2>
         <div className="brand-img">
 
             <div className="firstrow">
