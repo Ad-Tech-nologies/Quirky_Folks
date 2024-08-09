@@ -93,6 +93,11 @@ nav #full-scr{
 
 
 @media (max-width:600px) {
+    .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
     nav {
         padding: 1vw 5vw;
         background-color: #EFEAE3;
@@ -103,9 +108,45 @@ nav #full-scr{
         height: 12vh;
     }
 
-    .menu {
-        display: none;
+    .menu h4:hover a{
+        color: #ffffff;
+        
     }
+    .menu h3:hover a{
+        color: #000000;
+    }
+    
+
+    /* .menu {
+        display: none;
+    } */
+
+    .menu {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 40%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: #EFEAE3;
+		transition: 1s;
+	}
+
+    .responsive_nav {
+		transform: translateY(100vh);
+        z-index: 2;
+
+	}
+
+    .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
 
     nav h2 {
         display: block;
