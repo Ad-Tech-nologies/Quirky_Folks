@@ -91,11 +91,15 @@ nav #full-scr{
     display: none;
 }
 
+.nav-btn {
+    display: none;
+}
 
 @media (max-width:600px) {
     .nav-btn {
 		visibility: visible;
 		opacity: 1;
+        display: block;
 	}
 
     nav {
