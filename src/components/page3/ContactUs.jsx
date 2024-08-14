@@ -12,7 +12,7 @@ function ContactUs() {
     instaLink: "",
     ytLink: "",
     budget: "",
-    message: ""
+    message: "",
   });
 
   const [sumbitBtn, setSubmitBtn] = useState("SUBMIT");
@@ -28,10 +28,9 @@ function ContactUs() {
       instaLink: "",
       ytLink: "",
       budget: "",
-      message: ""
+      message: "",
     });
     // setSubmitBtn("SUBMIT");
-
   };
 
   const handleChange = (e) => {
@@ -64,59 +63,68 @@ function ContactUs() {
   };
 
   return (
-    <div data-scroll data-scroll-speed="0.1" className="contact-us" id="contact-us">
+    <div
+      data-scroll
+      data-scroll-speed="0.1"
+      className="contact-us"
+      id="contact-us"
+    >
       <h1>CONTACT US</h1>
       <form onSubmit={handleSubmit}>
         <div className="information">
           <div className="col">
-          <div className="name contactdiv">
-            <label>Name:</label>
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
+            <div className="name contactdiv">
+              <label>Name:</label>
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+            </div>
+
+            <div className="emailid contactdiv">
+              <label>Email: </label>
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+            </div>
           </div>
 
-          <div className="emailid contactdiv">
-            <label>Email: </label>
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          </div>
-          
           <div className="col">
-          <div className="phno contactdiv">
-            <label>Phone No:</label>
-            <input
-              type="tel"
-              name="phone"
-              value={formData.phone}
-              onChange={handleChange}
-            />
-          </div>
+            <div className="phno contactdiv">
+              <label>Phone No:</label>
+              <input
+                type="tel"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+              />
+            </div>
 
-          <div className="roles contactdiv">
-            <label>Role: </label>
-            <select name="role" value={formData.role} onChange={handleChange}    required>
-              <option value="">Select Role</option>
-              <option value="influencer">Influencer</option>
-              <option value="brand">Brand</option>
-            </select>
+            <div className="roles contactdiv">
+              <label>Role: </label>
+              <select
+                name="role"
+                value={formData.role}
+                onChange={handleChange}
+                required
+              >
+                <option value="">Select Role</option>
+                <option value="influencer">Influencer</option>
+                <option value="brand">Brand</option>
+              </select>
+            </div>
           </div>
-          </div>
-         
 
           {formData.role === "influencer" && (
             <div>
-              <div className="genre contactdiv" >
+              <div className="genre contactdiv">
                 <label>Genre:</label>
                 <input
                   type="text"
@@ -126,7 +134,7 @@ function ContactUs() {
                   required
                 />
               </div>
-              <div className="insta contactdiv" >
+              <div className="insta contactdiv">
                 <label>Instagram Link:</label>
                 <input
                   type="text"
@@ -136,7 +144,7 @@ function ContactUs() {
                   required
                 />
               </div>
-              <div className="yt contactdiv" >
+              <div className="yt contactdiv">
                 <label>Youtube Link:</label>
                 <input
                   type="text"
@@ -160,7 +168,7 @@ function ContactUs() {
                   required
                 />
               </div>
-              <div className="budget contactdiv" >
+              <div className="budget contactdiv">
                 <label>Budget:</label>
                 <input
                   type="text"
@@ -173,9 +181,9 @@ function ContactUs() {
             </div>
           )}
         </div>
-        
+
         <div className="message contactdiv">
-          <label>How can we help you: </label>
+          <label className="help">How can we help you: </label>
           <input
             type="message"
             name="message"
@@ -184,7 +192,9 @@ function ContactUs() {
             onChange={handleChange}
           />
         </div>
-        <button className="submit" type="submit">{sumbitBtn}</button>
+        <button className="submit" type="submit">
+          {sumbitBtn}
+        </button>
       </form>
     </div>
   );
