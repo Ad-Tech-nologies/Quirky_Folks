@@ -9,7 +9,7 @@ let year = d.getFullYear();
         <div className="links">
          <div className="mail">
           <h3>Mailbox: </h3>
-          <p>quirkyfolksentertainment@gmail.com</p>
+          <p>hello@quirkyfolksentertainment.com</p>
          </div>
          <div className="phn">
           <h3>Phone no: </h3>
