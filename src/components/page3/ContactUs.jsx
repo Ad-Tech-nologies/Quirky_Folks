@@ -46,10 +46,10 @@ function ContactUs() {
 
     emailjs
       .send(
-        "service_0ijgheg", // replace with your EmailJS service ID
-        "template_xl5fuyq", // replace with your EmailJS template ID
+        "service_lrb3nak", // replace with your EmailJS service ID 
+        "template_9pttbem", // replace with your EmailJS template ID
         formData,
-        "Qktr1GQxEO9Kdd5d4" // replace with your EmailJS key
+        "h4KrC5AJsJ8dRVRDP" // replace with your EmailJS key
       )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
